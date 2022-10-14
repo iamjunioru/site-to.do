@@ -24,7 +24,7 @@ function inicio(){
         return block
     })  
 
-    rodape.innerHTML = `You have ${contador += 1} pending tasks`
+    rodape.innerHTML = `you have ${contador += 1} pending tasks`
     console.log(array)
 }
 function removetask(){
@@ -33,7 +33,7 @@ function removetask(){
         block2.removeChild(block2.firstChild)
     }
 
-    rodape.innerHTML = `You have ${contador = 0} pending tasks`
+    rodape.innerHTML = `you have ${contador = 0} pending tasks`
     console.log(array)
 }
 
